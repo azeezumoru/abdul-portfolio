@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/***************** toolbar section starts here  ************************/
-
 .container {
     display: flex;
     color: white;
@@ -26,6 +24,3 @@
     font-size: 18px;
     line-height: 24px;
 }
-
-
-/***************** toolbar section ends here  ************************/
