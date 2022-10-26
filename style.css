@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***************** toolbar section starts here  ************************/
+
+.container {
+    display: flex;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    justify-content: space-between;
+    height: 92px;
+    background-color: #3C3A39;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/***************** toolbar section ends here  ************************/
