@@ -611,3 +611,11 @@ textarea::placeholder {
   border: none;
   margin-bottom: 100px;
 }
+
+.color {
+  /* background: #505f79; */
+  border-top: 1px solid #dfe1e6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
