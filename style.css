@@ -9,6 +9,11 @@
   }
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -61,6 +66,7 @@ body {
   font-family: 'Crete Round', serif;
   width: 100%;
   margin-bottom: 10px;
+  animation: fadeIn 2s;
 }
 
 .sub-title {
