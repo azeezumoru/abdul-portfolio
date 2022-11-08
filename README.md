@@ -40,6 +40,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/azeezumoru)
 - Twitter: [@twitterhandle](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/umoru-abdul-azeez-527921194)
+ 
+ **Athaliah Tauro**
+ - GitHub: [@githubhandle](https://github.com/Athaliah8)
+ 
 
 
 
