@@ -155,7 +155,6 @@ hr {
   display: flex;
 }  */
 
-
 /* .container p {
   flex-direction: row;
   gap: 2px;
@@ -868,7 +867,6 @@ textarea::placeholder {
     position: absolute;
     right: 18px;
   }
-
 
   /* .container {
     display: flex;
