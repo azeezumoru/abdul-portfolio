@@ -1131,6 +1131,23 @@ footer {
     display: block;
   }
 
+  .languages ul {
+    padding: 12px 0;
+    width: 186px;
+    height: 216px;
+    margin-right: 94.5px;
+  }
+
+  .framework ul {
+    width: 186px;
+    margin-left: 94.5px;
+    margin-right: 94.5px;
+  }
+
+  .skills ul {
+    margin-left: 28px;
+  }
+
   #social-icons ul {
     margin: auto;
   }
@@ -1278,13 +1295,6 @@ footer {
     margin: 0 23px 119.54px;
   }
 
-  .languages ul {
-    padding: 12px 0;
-    width: 186px;
-    height: 216px;
-    margin-right: 94.5px;
-  }
-
   .languages {
     margin-top: 128px;
   }
@@ -1305,12 +1315,6 @@ footer {
   .frame {
     margin-right: 74.77px;
     margin-left: 74.77px;
-  }
-
-  .framework ul {
-    width: 186px;
-    margin-left: 94.5px;
-    margin-right: 94.5px;
   }
 
   .framework li {
@@ -1339,10 +1343,6 @@ footer {
   .skills {
     margin-left: 130px;
     margin-right: 80px;
-  }
-
-  .skills ul {
-    margin-left: 28px;
   }
 
   .skills li {

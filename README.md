@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: finish mobile version
+# Portfolio: desktop version
 
-> For the second milestone in building my portfolio website, I created the mobile website section where you will list your portfolio projects.
+> I created the desktop version of my portfolio with flexbox and grid.
 
 
 ## Built With
@@ -40,11 +40,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/azeezumoru)
 - Twitter: [@twitterhandle](https://twitter.com/azeez_umoru)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/umoru-abdul-azeez-527921194)
- 
- **Athaliah Tauro**
- - GitHub: [@githubhandle](https://github.com/Athaliah8)
- 
-
 
 
 ## 🤝 Contributing
