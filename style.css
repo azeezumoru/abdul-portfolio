@@ -1,4 +1,4 @@
-@keyframes slider {
+/* @keyframes slider {
   from {
     margin-left: 100%;
     width: 300%;
@@ -55,7 +55,7 @@ a {
 
 .navbar ul {
   display: flex;
-  margin-right: 30px;
+  margin-right: -240px;
 }
 
 .navbar li {
@@ -128,9 +128,17 @@ hr {
   margin-top: 15px;
   width: 318px;
   margin-left: 46px;
+} */
+
+/* .recentwork {
+  display: flex;
+  flex-direction: column;
+  margin-right: 13px;
 }
 
 .recentwork hr {
+  display: flex;
+  flex-direction: column;
   margin: 50px 24px 0 54px;
   width: 327px;
 }
@@ -216,11 +224,11 @@ hr {
 }
 
 .recent {
+  display: flex;
   font-family: 'Crete Round', serif;
   font-weight: 440;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
   text-align: center;
   margin-left: 65px;
   margin-top: 150px;
@@ -740,7 +748,7 @@ textarea::placeholder {
 }
 
 /* ---- desktop version --- media query--- */
-@media screen and (max-width: 768px) {
+/* @media all and (max-width: 768px) {
   #menu ul li a {
     list-style: none;
     display: none;
@@ -806,10 +814,93 @@ textarea::placeholder {
     margin-right: 13px;
   }
 
+  .recent hr {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 23px 100px;
+  }
+
   .listbutton {
     list-style: none;
     display: flex;
     gap: 12px;
     margin-top: 1rem;
+  }
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1a19;
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #3c3a39;
+  padding-bottom: 12px;
+  z-index: 1;
+}
+
+nav {
+  color: #fff;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 154px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+@media all and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #3c3a39;
+    padding-bottom: 12px;
+    top: 0;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 24px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 15px;
   }
 }
