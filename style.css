@@ -180,6 +180,11 @@ hr {
   font-family: 'Crete Round', serif;
   width: 100%;
   animation: fadeIn 2s;
+  transition: 2s ease-in-out;
+}
+
+.main-title:hover {
+  color: #00f;
 }
 
 .sub-title {
@@ -740,11 +745,12 @@ textarea::placeholder {
 }
 
 /* ---- desktop version --- media query--- */
-@media screen and (max-width: 768px) {
-  #menu ul li a {
+@media all and (max-width: 768px) {
+  #menu li a {
     list-style: none;
     display: none;
-    margin-left: 40px;
+    margin-left: -140px;
+    justify-content: right;
   }
 
   .menu-line {
