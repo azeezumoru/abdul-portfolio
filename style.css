@@ -871,6 +871,19 @@ nav {
   margin-left: 154px;
 }
 
+.navbar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px 12px 24px;
+}
+
+.navbar .fa-bars {
+  display: inline-block;
+  font-size: 25px;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -879,6 +892,90 @@ nav {
 
 .navbar li {
   list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 32px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 133%;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.menu-line {
+  width: 24px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "top contain-image";
+  text-align: center;
+  text-align: justify;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: 'Crete Round', sans-serif;
+  color: #ff6b00;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  margin-top: 192px;
+  margin-bottom: 24px;
+  text-align: justify;
+  margin-left: 143px;
+}
+
+.container p {
+  color: #f4f5f7;
+  margin-bottom: 50px;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 125px;
+}
+
+.container h2 {
+  color: #fff5e1;
+  line-height: 44px;
+  padding: 0 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 24px;
+  margin-left: 125px;
+}
+
+.s-icons img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  left: 36px;
+  top: 0;
+  transform: translateY(-1400%);
+}
+
+.github,
+.linked {
+  margin-bottom: 16px;
 }
 
 @media all and (max-width: 768px) {
@@ -890,7 +987,7 @@ nav {
     top: 0;
   }
 
-  .navbar ul {
+  .navbar li {
     display: none;
   }
 
@@ -903,4 +1000,45 @@ nav {
     position: absolute;
     right: 15px;
   }
+
+  .container {
+    background-image: url(./Pictures/illustration-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .container h1 {
+    margin-left: 34px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: justify;
+    width: 327px;
+    height: 124px;
+  }
+
+  .container h2 {
+    margin-left: 14px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .container p {
+    margin-left: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 24px;
+  }
+
+  .top {
+    margin-left: 24px;
+  }
+
+  .s-icons {
+    display: none;
+  }
+
 }
+
