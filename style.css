@@ -18,9 +18,9 @@ body {
   margin: auto;
 }
 
-.content {
-  margin-right: -20px;
-}
+/* .content {
+  overflow: hidden;
+} */
 
 header {
   position: fixed;
@@ -112,6 +112,8 @@ nav {
   padding: 12px 12px;
   margin-left: 113.5px;
   margin-right: 113.5px;
+  margin-top: 4px;
+  white-space: nowrap;
 }
 
 .navbar li a {
@@ -181,24 +183,24 @@ nav {
 
 .container p {
   color: #f4f5f7;
-  margin-bottom: 50px;
-  padding: 12px 24px;
+  margin-top: -4px;
+  padding: 0 0 20px 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 25px;
   margin-left: 125px;
 }
 
 .container h2 {
   color: #fff5e1;
   line-height: 44px;
-  padding: 0 24px;
+  padding: 0 0 10px 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  margin-bottom: 24px;
+  margin-top: -20px;
   margin-left: 125px;
 }
 
@@ -223,8 +225,7 @@ nav {
   height: auto;
   float: right;
   left: 1744.68px;
-  top: -135px;
-  margin-bottom: 0;
+  margin-bottom: -55px;
 }
 
 .picture {
@@ -407,6 +408,7 @@ p.photo-para {
   background-size: cover;
   width: 369px;
   height: 500px;
+  margin-right: 30px;
 }
 
 .three-project {
@@ -547,6 +549,7 @@ p.photo-para {
 .see-project {
   display: flex;
   justify-content: flex-end;
+  margin-top: -66px;
 }
 
 .hide-content {
@@ -625,7 +628,6 @@ p.photo-para {
   grid-template-areas:
     'project-1 project-2 project-3'
     'project-4 project-5 project-6';
-  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -1051,7 +1053,7 @@ footer {
   margin-right: 88px;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     position: fixed;
     width: 100%;
@@ -1081,7 +1083,7 @@ footer {
   }
 
   .container {
-    background-image: url(./Pictures/illustration-header-mobile.png);
+    background-image: url(./Pictures/header-mobile.png);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -1119,8 +1121,13 @@ footer {
     display: none;
   }
 
+  .first-project {
+    display: none;
+  }
+
   .contain-image img {
     display: none;
+    margin-top: 456px;
   }
 
   .social-icon {
@@ -1164,6 +1171,7 @@ footer {
     align-content: center;
     margin-left: 24px;
     margin-bottom: 24px;
+    margin-top: 120px;
   }
 
   .work-heading hr {
@@ -1173,6 +1181,8 @@ footer {
     width: 327px;
     margin-right: 24px;
     margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 80px;
   }
 
   .work-heading h2 {
@@ -1230,7 +1240,7 @@ footer {
   .five-project,
   .six-project {
     width: 100%;
-    height: auto;
+    height: 500px;
   }
 
   .project-list {
@@ -1239,6 +1249,7 @@ footer {
     align-content: center;
     padding: 12px 12px;
     text-align: center;
+    margin-top: -190px;
   }
 
   .hide-content {
@@ -1357,6 +1368,10 @@ footer {
     flex-direction: column;
     align-content: center;
   }
+
+  /* .content {
+    overflow: hidden;
+  } */
 
   .contact-me h2 {
     display: flex;
